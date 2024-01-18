@@ -1,0 +1,41 @@
+[0.074s] Invoking command in '/home/bhuvaneshwari/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhuvaneshwari/install/robo_arm:/opt/ros/foxy /usr/bin/cmake /home/bhuvaneshwari/dev_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/bhuvaneshwari/dev_ws/install/my_bot
+[0.086s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.100s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.175s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.180s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.210s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.214s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.214s] -- Added test 'lint_cmake' to check CMake code style
+[0.215s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.216s] -- Added test 'xmllint' to check XML markup files
+[0.217s] -- Configuring done
+[0.219s] -- Generating done
+[0.220s] -- Build files have been written to: /home/bhuvaneshwari/dev_ws/build/my_bot
+[0.222s] Invoked command in '/home/bhuvaneshwari/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhuvaneshwari/install/robo_arm:/opt/ros/foxy /usr/bin/cmake /home/bhuvaneshwari/dev_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/bhuvaneshwari/dev_ws/install/my_bot
+[0.223s] Invoking command in '/home/bhuvaneshwari/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhuvaneshwari/install/robo_arm:/opt/ros/foxy /usr/bin/cmake --build /home/bhuvaneshwari/dev_ws/build/my_bot -- -j4 -l4
+[0.241s] Invoked command in '/home/bhuvaneshwari/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhuvaneshwari/install/robo_arm:/opt/ros/foxy /usr/bin/cmake --build /home/bhuvaneshwari/dev_ws/build/my_bot -- -j4 -l4
+[0.256s] Invoking command in '/home/bhuvaneshwari/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhuvaneshwari/install/robo_arm:/opt/ros/foxy /usr/bin/cmake --install /home/bhuvaneshwari/dev_ws/build/my_bot
+[0.259s] -- Install configuration: ""
+[0.259s] -- Execute custom install script
+[0.259s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.260s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/description/example_robot.urdf.xacro
+[0.260s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.260s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/launch/robot_state_publisher.launch.py
+[0.260s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.260s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.260s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.260s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.260s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.261s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.261s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.261s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.261s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.261s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.261s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.261s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.261s] -- Symlinking: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/package.dsv
+[0.265s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.265s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.265s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.266s] -- Up-to-date symlink: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/package.xml
+[0.267s] Invoked command in '/home/bhuvaneshwari/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhuvaneshwari/install/robo_arm:/opt/ros/foxy /usr/bin/cmake --install /home/bhuvaneshwari/dev_ws/build/my_bot

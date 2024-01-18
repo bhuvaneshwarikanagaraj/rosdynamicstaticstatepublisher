@@ -1,0 +1,56 @@
+[0.062s] Invoking command in '/home/bhuvaneshwari/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/bhuvaneshwari/dev_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/bhuvaneshwari/dev_ws/install/my_bot
+[0.102s] -- The C compiler identification is GNU 9.4.0
+[0.134s] -- The CXX compiler identification is GNU 9.4.0
+[0.136s] -- Check for working C compiler: /usr/bin/cc
+[0.169s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.169s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.205s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.243s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.284s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.297s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.297s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.376s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.408s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.412s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.413s] -- Added test 'lint_cmake' to check CMake code style
+[0.413s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.415s] -- Added test 'xmllint' to check XML markup files
+[0.416s] -- Configuring done
+[0.417s] -- Generating done
+[0.418s] -- Build files have been written to: /home/bhuvaneshwari/dev_ws/build/my_bot
+[0.420s] Invoked command in '/home/bhuvaneshwari/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/bhuvaneshwari/dev_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/bhuvaneshwari/dev_ws/install/my_bot
+[0.421s] Invoking command in '/home/bhuvaneshwari/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bhuvaneshwari/dev_ws/build/my_bot -- -j4 -l4
+[0.438s] Invoked command in '/home/bhuvaneshwari/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bhuvaneshwari/dev_ws/build/my_bot -- -j4 -l4
+[0.452s] Invoking command in '/home/bhuvaneshwari/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bhuvaneshwari/dev_ws/build/my_bot
+[0.455s] -- Install configuration: ""
+[0.455s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/config
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/description
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/launch
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/worlds
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.456s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.457s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.457s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.457s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.457s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/package.dsv
+[0.457s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.457s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.457s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.457s] -- Installing: /home/bhuvaneshwari/dev_ws/install/my_bot/share/my_bot/package.xml
+[0.458s] Invoked command in '/home/bhuvaneshwari/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bhuvaneshwari/dev_ws/build/my_bot
